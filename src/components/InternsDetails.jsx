@@ -15,7 +15,7 @@ export const InternsDetails = ({ InternsData }) => {
       </div>
       <div className='topThreeContainer'>
         {topThreeInterns.map((intern, index) => (
-          <div key={index}>
+          <div className='topThreeIntern' key={index}>
               <div>
               <img src={intern.img} alt='intern photo'/> 
               </div>
