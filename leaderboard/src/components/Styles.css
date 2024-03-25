@@ -1,0 +1,30 @@
+* {
+    background-color: rgb(146, 233, 236);
+}
+.board {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid rgba(201, 255, 251, 0.543);
+}
+
+.boardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.topThreeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.heading {
+    text-align: center;
+}
+img {
+    width: 3%;
+    height: 3%;
+}
